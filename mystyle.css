@@ -1,0 +1,10 @@
+.topzone{
+    margin: 40px 10%;
+    
+    display: flex;
+    flex-direction: row;
+}
+.topbutton{
+    font-size:large; 
+    background-color: aquamarine;
+}
