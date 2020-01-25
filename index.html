@@ -5,8 +5,11 @@
 </head>
 <body>
     <div class="topzone">
-        <input type="number" id="nn" value='30'>
-        <button onclick='drawPoints()' class="topbutton">Create Points</button>
+        <input type="number" id="nn" placeholder="Number of Nodes">
+        <button onclick='drawPoints()' class="topbutton">Create Node</button>
+        <input type="number" id="start" style="margin-left:60px;" placeholder="Start from">
+        <button onclick='bfs()' class="topbutton">Find Connections</button>
+        <button onclick='next()' class="topbutton" style="margin-left:60px;">Next</button>
     </div>
     <canvas id="myCanvas" style="border:1px solid #000000;margin:0 10%;">
         Your browser does not support the HTML5 canvas tag.
