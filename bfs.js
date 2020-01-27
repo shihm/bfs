@@ -6,11 +6,6 @@ var txt='Input node to start search: '
 
 function findConnect(point) {
 
-    /*let t1=pointIndex-10
-    if(t1<0) low=0
-    let t2=pointIndex+10
-    if(t2>pointN) t2=pointN*/
-    
     let connection = []
     for (var i in notused) {
         if (isConnected(notused[i], point)) {
@@ -46,9 +41,8 @@ function drawConnection(point1, point2) {
     ctx.stroke();
 }
 function enableStart(){
-    if(document.getElementById("start").value){
-        $("#startbtn").prop('disabled', false)
-    }
+    $("#startbtn").prop('disabled', false)
+    $("#nextbtn").prop('disabled', false)
 }
 
 function bfs() {

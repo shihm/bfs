@@ -35,7 +35,7 @@
 
     <div class="collapse topzone" id="bfs">
         <div class="startzone">
-            <input type="number" id="start" onchange="enableStart()" placeholder="Starting Node">
+            <input type="number" id="start" oninput='enableStart()' placeholder="Starting Node">
             <button id='startbtn' onclick='bfs()' class="btn btn-outline-primary">Start</button>
             <button id='nextbtn' onclick='next()' class="btn btn-outline-primary">Next</button>
         </div>
