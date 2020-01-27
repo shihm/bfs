@@ -1,15 +1,36 @@
 .topzone{
     margin: 40px 10%;
-    
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .topzone input{
     font-size:large;
-    border: solid aquamarine 1px;
-    width: 150px;
+    border: solid black 1px;
+    line-height: 1.5;
 }
-.topbutton{
-    font-size:large; 
-    background-color: aquamarine;
+.toright{
+    position: absolute;
+    right:10%;
+}
+.startzone{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.startzone input{
+    width: 100%;
+}
+.startzone button{
+    width: 100%;
+    margin-top: 15px;
+}
+.console{
+    width: 100%;
+    margin-left: 20px;
+    height: 150px;
+    overflow-y: scroll;
+}
+.console:last-child {
+    bottom: 20px;
 }
